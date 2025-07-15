@@ -3,8 +3,7 @@ import User from "./models/User.js";
 import connectToMongoDB from "./db/connectToMongoDB.js";
 
 // run this file for the first time to insert a record for admin 
-// to run this file move to terminal and run
-// node --env-file=env seed.js
+// node --env-file=.env seed.js
 
 const register = async () => {
   try {
